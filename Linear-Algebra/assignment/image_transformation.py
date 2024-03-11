@@ -24,7 +24,7 @@ show_image(heart_img, "Heart Image")
 
 # Invert color
 inverted_heart_img  = 255 - heart_img  
-show_image(inverted_heart_img, "Inverted heart_img")
+show_image(inverted_heart_img, "Inverted heart")
 
 # Rotate heart
 rotated_heart_img  = heart_img.T
