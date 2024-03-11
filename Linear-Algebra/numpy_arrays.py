@@ -3,7 +3,7 @@
 import numpy as np
 
 """
-Part 1
+Part 1 - Build Matrix
 
 # Given vectors
 vector_1 = np.array([-2,-6,2,3])
@@ -32,7 +32,7 @@ print(matrix[1:2, :])
 """
 
 """
-Part 2
+Part 2 - Matrix Multiplication
 
 # Given
 # 2 x 3 matrix
@@ -53,4 +53,24 @@ print(E)
 # Calculate F = CA
 F = C@A
 print(F)
+"""
+
+"""
+Part 3 - Special Matrix (Identity, Zeros, and Transpose)
+
+# Given
+A = np.array([[1,-1,1], [0,1,0], [-1,2,1]])
+B = np.array([[0.5,1.5,-0.5], [0,1,0], [0.5,-0.5,0.5]])
+
+AB = A@B
+BA = B@A
+
+print(AB)
+print(BA)
+
+A_transpose = A.T
+B_transpose = B.T
+
+print(A_transpose)
+print(B_transpose)
 """
