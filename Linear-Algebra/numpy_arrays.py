@@ -2,6 +2,9 @@
 
 import numpy as np
 
+"""
+Part 1
+
 # Given vectors
 vector_1 = np.array([-2,-6,2,3])
 vector_2 = np.array([4,1,-3,8])
@@ -25,3 +28,29 @@ print(matrix[2:3, :])
 
 # Print out the second row
 print(matrix[1:2, :])
+
+"""
+
+"""
+Part 2
+
+# Given
+# 2 x 3 matrix
+A = np.array([[2,3,-4], [-2, 1, -3]])
+# 2 x 3 matrix
+B = np.array([[1,-1,4], [3,-3,3]])
+# 3 x 2 matrix
+C = np.array([[1, 2], [3, 4], [5, 6]])
+
+# Calculate D = 4A - 2B
+D = (4 * A) - (2 * B)
+print(D)
+
+# Calculate E = AC
+E = np.matmul(A, C)
+print(E)
+
+# Calculate F = CA
+F = C@A
+print(F)
+"""
