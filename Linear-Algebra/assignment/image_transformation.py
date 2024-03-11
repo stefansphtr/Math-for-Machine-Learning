@@ -34,3 +34,17 @@ show_image(rotated_heart_img, "Rotated heart")
 random_img = np.random.randint(0,255, (7,7))
 show_image(random_img, "Random Image")
 
+# Solve for heart image
+
+# Solve equation
+# random_img . x = heart_img
+
+# Create the x var
+x = np.linalg.solve(random_img, heart_img)
+# Create solved_heart_img var
+solved_heart_img = random_img@x
+
+# Plot the x
+show_image(x, "x")
+# Show the plot
+show_image(solved_heart_img, "Solved Heart Image")
