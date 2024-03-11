@@ -27,7 +27,8 @@ inverted_heart_img  = 255 - heart_img
 show_image(inverted_heart_img, "Inverted heart_img")
 
 # Rotate heart
-
+rotated_heart_img  = heart_img.T
+show_image(rotated_heart_img, "Rotated heart")
 
 # Random Image
 
