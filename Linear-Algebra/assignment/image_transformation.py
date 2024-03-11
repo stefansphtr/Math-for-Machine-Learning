@@ -17,9 +17,10 @@ def show_image(image, name_identifier):
   plt.imshow(image, cmap="gray")
   plt.title(name_identifier)
   plt.show()
+  plt.clf()
 
 # Show heart image
-
+show_image(heart_img, "Heart Image")
 
 # Invert color
 
