@@ -74,3 +74,32 @@ B_transpose = B.T
 print(A_transpose)
 print(B_transpose)
 """
+
+"""
+Part 4 - Additional LinAlg Operations
+
+# Represent the following system in NumPy matrix/vector form, then solve for x, y, and z
+
+# Given
+'''
+4x + z = 2
+-y + 2z - 3x = 0
+.5y - x - 1.5z = -4
+'''
+
+# Define the matrix
+A = np.array([
+    [4, 0, 1],
+    [-3, -1, 2],
+    [-1, 0.5, -1.5]
+])
+
+# Define the solution of the matrix
+b = np.array([2, 0, -4])
+
+# Get the x, y, and z solution
+x, y, z = np.linalg.solve(A, b)
+
+print((x, y, z))
+"""
+
