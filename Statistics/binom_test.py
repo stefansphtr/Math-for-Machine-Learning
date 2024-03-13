@@ -16,4 +16,3 @@ in a variable called p_value.
 Print out p_value. What is your conclusion based on the result?
 """
 
-
