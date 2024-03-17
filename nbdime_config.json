@@ -1,7 +1,0 @@
-{
-    "diff": {
-        "Ignore": {
-            "/cells/*/execution_count": true
-        }
-    }
-}
