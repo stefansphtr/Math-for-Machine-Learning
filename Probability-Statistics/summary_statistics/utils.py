@@ -7,8 +7,8 @@ import ipywidgets as widgets
 from ipywidgets import interact,HBox, VBox
 import matplotlib.gridspec as gridspec
 
-df_anscombe = pd.read_csv('df_anscombe.csv')
-df_datasaurus = pd.read_csv("datasaurus.csv")
+df_anscombe = pd.read_csv('./data/df_anscombe.csv')
+df_datasaurus = pd.read_csv("./data/datasaurus.csv")
 
 def plot_anscombes_quartet():
     fig, axs = plt.subplots(2,2, figsize = (8,5), tight_layout = True)
