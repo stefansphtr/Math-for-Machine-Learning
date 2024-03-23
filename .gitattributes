@@ -6,3 +6,4 @@ Probability-Statistics/EDA_exploring_your_data/data/*.csv filter=lfs diff=lfs me
 Probability-Statistics/EDA_intro_to_pandas/data/*.csv filter=lfs diff=lfs merge=lfs -text
 Probability-Statistics/linear_regression_world_happiness/data/*.csv filter=lfs diff=lfs merge=lfs -text
 Probability-Statistics/EDA_confidence_interval_and_hypothesis_testing/data/*.csv filter=lfs diff=lfs merge=lfs -text
+Probability-Statistics/*/data/*.csv filter=lfs diff=lfs merge=lfs -text
